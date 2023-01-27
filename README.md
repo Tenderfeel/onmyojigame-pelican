@@ -1,10 +1,18 @@
 # onmyojigame-pelican
 
-中国版公式サイトにある壁紙をダウンロードするやつ
+中国版公式サイトにある壁紙をダウンロードするやつ。
 
+リリースにあるバイナリをダウンロードして実行すればGoのない環境でも動くかも
+
+- mac → arm(M1/M2)
+- win → x86 64bit
+
+## Development
 ```
 make install
 make start
+make buildwin
+make buildmac
 ```
 
 
